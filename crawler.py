@@ -1,4 +1,3 @@
-import os
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -52,4 +51,8 @@ def get_general():
     print("일반 뉴스 수집 완료")
 
 get_general()
+
+# 시간마다 크롤링해오기
+# 주제 2개 더 추가
+# https://code-study.tistory.com/59
 
